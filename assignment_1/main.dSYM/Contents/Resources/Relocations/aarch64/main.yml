@@ -1,0 +1,21 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/richard/Documents/Binus/Semester 4/os/Operating_System/assignment_1/main'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000038F0, symSize: 0x1C8 }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _f_all, symObjAddr: 0x1C30, symBinAddr: 0x1000080D8, symSize: 0x0 }
+  - { offsetInCU: 0x25E, offset: 0x25E, size: 0x8, addend: 0x0, symName: _f_even, symObjAddr: 0x1C38, symBinAddr: 0x1000080E0, symSize: 0x0 }
+  - { offsetInCU: 0x273, offset: 0x273, size: 0x8, addend: 0x0, symName: _f_odd, symObjAddr: 0x1C40, symBinAddr: 0x1000080E8, symSize: 0x0 }
+  - { offsetInCU: 0x288, offset: 0x288, size: 0x8, addend: 0x0, symName: _mutex, symObjAddr: 0x608, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x2E7, offset: 0x2E7, size: 0x8, addend: 0x0, symName: _top, symObjAddr: 0x648, symBinAddr: 0x100008040, symSize: 0x0 }
+  - { offsetInCU: 0x2FC, offset: 0x2FC, size: 0x8, addend: 0x0, symName: _cond_space, symObjAddr: 0x650, symBinAddr: 0x100008048, symSize: 0x0 }
+  - { offsetInCU: 0x354, offset: 0x354, size: 0x8, addend: 0x0, symName: _buffer, symObjAddr: 0x1C50, symBinAddr: 0x1000080F8, symSize: 0x0 }
+  - { offsetInCU: 0x375, offset: 0x375, size: 0x8, addend: 0x0, symName: _cond_even, symObjAddr: 0x680, symBinAddr: 0x100008078, symSize: 0x0 }
+  - { offsetInCU: 0x38A, offset: 0x38A, size: 0x8, addend: 0x0, symName: _cond_odd, symObjAddr: 0x6B0, symBinAddr: 0x1000080A8, symSize: 0x0 }
+  - { offsetInCU: 0x39F, offset: 0x39F, size: 0x8, addend: 0x0, symName: _produced, symObjAddr: 0x1C48, symBinAddr: 0x1000080F0, symSize: 0x0 }
+  - { offsetInCU: 0x3B4, offset: 0x3B4, size: 0x8, addend: 0x0, symName: _consumed, symObjAddr: 0x1C4C, symBinAddr: 0x1000080F4, symSize: 0x0 }
+  - { offsetInCU: 0x3C4, offset: 0x3C4, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000038F0, symSize: 0x1C8 }
+  - { offsetInCU: 0x424, offset: 0x424, size: 0x8, addend: 0x0, symName: _producer, symObjAddr: 0x1C8, symBinAddr: 0x100003AB8, symSize: 0x144 }
+  - { offsetInCU: 0x484, offset: 0x484, size: 0x8, addend: 0x0, symName: _consumer, symObjAddr: 0x30C, symBinAddr: 0x100003BFC, symSize: 0x230 }
+  - { offsetInCU: 0x4F2, offset: 0x4F2, size: 0x8, addend: 0x0, symName: _signal_for_top, symObjAddr: 0x53C, symBinAddr: 0x100003E2C, symSize: 0x80 }
+...
